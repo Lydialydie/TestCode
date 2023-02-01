@@ -1,0 +1,8 @@
+
+def unique(list):
+    if len(list)==len(set(list)):
+        print("Tous les éléments sont uniques")
+    else:
+        print("La liste a des doublons")
+        
+unique([1,2,3,4,5]) # Tous les éléments sont uniques
